@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    font-size: 18px;
+    color:red;
+}
+
+form {
+    text-align: center;
+    vertical-align: middle;
+}
+
+label {
+    font-size: 32px;
+}
+
+input {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: solid 1px;
+    border-radius: 25px;
+    height: 40px;
+    width: 20%;
+    font-size: 28px;
+    padding: 6px;
+    transition: width 0.4s ease-in-out;
+}
+
+input:focus {
+    width: 30%;
+    background-color: aliceblue; 
+    outline:0;
+}
+
+input::-webkit-inner-spin-button, 
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+#submit {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: deepskyblue;  
+    padding: 8px;
+    border: solid 1px black;
+    border-radius: 24px;
+    font-size: 24px;
+    color: black;
+}
+
+#submit:hover {
+    background-color: dodgerblue;
+}
+
+#submit:focus {
+    outline:0;
+}
